@@ -11,6 +11,11 @@ use Illuminate\Support\Facades\Log;
 class JsLogController
 {
 
+    /**
+     * Handles the request to store the logs
+     *
+     * @return void
+     */
     public function storeLog(){
 
         $inputData = request()->all();
